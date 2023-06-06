@@ -8,3 +8,13 @@ export let params = {
     offset: .07,
     resolution: new Vector2(window.innerWidth, window.innerHeight)
 }
+
+export let skyEffectController = {
+    turbidity: 10,
+    rayleigh: 3,
+    mieCoefficient: 0.005,
+    mieDirectionalG: 0.7,
+    elevation: 2,
+    azimuth: 180,
+    // exposure: renderer.toneMappingExposure
+};
